@@ -2,7 +2,7 @@ python_tests(name="tests")
 
 python_source(
     name="proto_nx_script",
-    source="proto_nx_script.py"
+    source="proto_nx_script.py",
 )
 
 python_source(

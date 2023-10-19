@@ -1,5 +1,5 @@
 from simple_example.v1.person_pb2 import Person
-import networkx as nx
+from .nx_lib import version_string
 
 
 if __name__ == '__main__':
@@ -8,4 +8,4 @@ if __name__ == '__main__':
     p.id = 3
     p.email = "me@example.com"
     print(p)
-    print(f'Networkx version: {nx.__version__}')
+    print(version_string())
